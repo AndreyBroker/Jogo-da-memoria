@@ -46,7 +46,7 @@ const ICON = "icon";
 
             let iconElement = document.createElement('img');
             iconElement.classList.add(ICON);
-            iconElement.src = "./images/" + card.icon + ".png";
+            iconElement.src = "./" + card.icon + ".png";
             cardElementFace.appendChild(iconElement);
 
         }else{
